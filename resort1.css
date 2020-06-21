@@ -1,0 +1,65 @@
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) , url("../html image/resort.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+#head1{
+  width: 50%;
+  margin-left:60px;
+
+}
+#head2{
+font-family: 'Signika', sans-serif;
+}
+#main1 nav{
+  display: flex;
+  justify-content: flex-start;
+}
+ul {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+ul li{
+margin:35px;
+list-style: none;
+}
+ul a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  transition: all 1s;
+  border-radius: 1px;
+}
+ul a:hover{
+color:black;
+background-color: white;
+}
+#main2{
+display:flex;
+flex-direction: column;
+align-items: center;
+margin-top: 150px;
+color: white;
+}
+.btn {
+height: 100px;
+display: flex;
+}
+.btn  a{
+margin: 40px;
+color: white;
+text-decoration: none;
+border: 2px solid white;
+padding:15px;
+font-weight:2;
+transition: all 1s;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+.btn a:hover{
+background-color: white;
+color: black;
+}
