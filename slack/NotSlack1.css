@@ -1,0 +1,131 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing:border-box;
+}
+@media(max-width: 1041px){
+.middle{
+  flex-direction: column;
+}
+}
+.left{
+width:80%;
+height: 70px;
+font-size: 1em;
+}
+ul{
+display: flex;
+list-style: none;
+margin-top: 20px;
+}
+li{
+  margin-left:  30px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+}
+li:nth-child(2){
+  position: relative;
+  bottom: 10px;
+  right: 20px;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: black;
+}
+nav{
+display: flex;
+height: 70px;
+align-items: center;
+min-width: 1450px;
+}
+.right {
+  display: flex;
+height: 60px;
+width: 20%;
+align-items:center;
+justify-content: space-around;
+font-family: 'Montserrat', sans-serif;
+color: grey;
+}
+.head1{
+  border:1px solid black;
+  display: flex;
+  padding-left:400px;
+  padding-top:30px;
+  padding-bottom:30px;
+  padding-right:400px;
+  min-width: 1450px;
+  background: rgba(13, 22, 84,0.9);
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+.head1 h3{
+
+  margin-right: 30px;
+  margin-left: 20px;
+  width: 70%;
+  min-width: 300px;
+}
+.head1 a{
+  margin-top: -10px;
+  padding-left: 1em;
+  padding-right: 1.25em;
+  padding-top: 0.6em;
+  height: 43px;
+  background: rgba(74, 61, 212,0.9);
+  color: white;
+  border-radius: 5px;
+  min-width: 150px;
+}
+.middle{
+display: flex;
+font-family: 'Montserrat', sans-serif;
+color:grey;
+}
+.middle img{
+  height:500px;
+}
+.middle h1{
+  font-size:4rem;
+    margin-right: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.middle h3{
+  font-size: 1.1rem;
+    margin-right: 50px;
+}
+#btn {
+  margin-top: 30px;
+  width: 130px;
+  height: 40px;
+    margin-bottom:  20px;
+    margin-left: 400px;
+color: black;
+border: 1px solid blac;
+}
+#btn a{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.75em;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  background: rgba(74, 61, 212,0.8);
+  color: white;
+}
+a{
+text-decoration: none;
+}
+
+#btn1{
+padding-left: 1em;
+padding-right: 1.5em;
+padding-top: 0.75em;
+padding-bottom: 0.75em;
+border-radius: 5px;
+background: rgba(74, 61, 212,0.8);
+}
+#btn1 a{
+color: white;
+}
+.middle a{
+}
